@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     
+    <section class="container">
+        <section class="counter">Counter</section>
+        <section id="countvalue" >0</section>
+        <section class="btn">
+            <button id="decrease">Decrease</button>
+            <button id="reset">reset</button>
+            <button id="increase">Increase</button>
+        </section>
+    </section>
+
+<script>
+
+
+var resetEle = document.getElementById('reset'),
+    increaseEle = document.getElementById('increase'),
+    decreaseEle = document.getElementById('decrease'),
+    countValueEle = document.getElementById('countvalue'),
+    integer = 0,
+  zero = 0;
+
+
+
+increaseEle.addEventListener('click', valueplus);
+
+function valueplus(){
+         integer += 1 ,
+         countValueEle.innerHTML = integer; 
+
+    };
+
+
+    decreaseEle.addEventListener('click', valuemin);
+
+function valuemin (){
+    integer -= 1,
+    countValueEle.innerHTML = integer;
+
+}
+
+
+
+resetEle.addEventListener('click', valuerst);
+
+function valuerst(){
+
+    countValueEle.innerHTML =  zero;
+
+
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>

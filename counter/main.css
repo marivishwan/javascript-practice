@@ -1,0 +1,48 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+
+    border: solid 2px  white;
+    box-shadow: inset 5px 5px 12px #ffffff,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+    padding: 100px;
+    position: relative;
+}
+
+.counter{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    left: 30%;
+    color: cornflowerblue;
+    font-weight: 600;
+}
+
+
+
+#countvalue{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 36px;
+    margin-left: -36px;
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+
