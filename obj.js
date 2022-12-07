@@ -1,13 +1,13 @@
 
-let earpods={
+var earpods(selectbrands)={
     brand: "oneplus",
     model: z2,
     color: "black",
     charging_time: 1,
     playback_time:  3,
 } 
-console.log(earpods);
-console.log(earpods.brand);
+console.log earpods(samsung);
+
 
 let notebook={
     brand: "Diamond",
@@ -15,7 +15,7 @@ let notebook={
     total_pages: 150,
 }
 console.log(notebook);
-console.log(notebook["total_pages"]);
+
 
 let pen={
     color: " blue and white",
@@ -23,7 +23,7 @@ let pen={
     style: "with cap"
 }
 console.log(pen);
-console.log(pen["style"]);
+
 
 let switchboard={
     material: "Plastic",
@@ -31,7 +31,7 @@ let switchboard={
     switches: 2,
 }
 console.log(switchboard);
-console.log(switchboard["socket"]);
+
 
 let tubelight={
     brand: "Orbit",
@@ -40,7 +40,7 @@ let tubelight={
     power:"50 watts"
 }
 console.log(tubelight);
-console.log(tubelight["type"]);
+
 
 let plywood={
     length:40,
@@ -48,7 +48,7 @@ let plywood={
     style: "with Mica",
 }
 console.log(plywood);
-console.log(plywood["style"]);
+
 
 let bag={
     brand : "Roshan",
@@ -56,7 +56,7 @@ let bag={
     style: "backbag", 
 }
 console.log(bag);
-console.log(bag["style"]);
+
 
 let tshirt={
     color: "Blue",
@@ -64,7 +64,7 @@ let tshirt={
     material: "Demin"
 }
 console.log(tshirt);
-console.log(tshirt["material"]);
+
 
 let cake={
     flavour: "Blackcurrent",
@@ -72,7 +72,7 @@ let cake={
     shape: "round",
 }
 console.log(cake);
-console.log(cake["flavour"]);
+
 
 let aeroplane={
     company: "airbus",
@@ -81,14 +81,14 @@ let aeroplane={
     seat: "1st"
 } 
 console.log(bus);
-console.log(aeroplane.company);
+
 
 let water_bottle={
     material: "Steel",
     capacity: "1 Litre",
 }
 console.log(water_bottle);
-console.log(water_bottle.capacity);
+
 
 let song={
     hit:"meloady",
@@ -97,7 +97,7 @@ let song={
     music: "ilayaraja",
 }
 console.log(song);
-console.log(song.hit);
+
 
 let pencil={
     color: 25,
@@ -106,7 +106,7 @@ let pencil={
     prize: 25,
 }
 console.log(pencil);
-console.log(pencil.company);
+
 
 let fiber={
     company:"jio",
@@ -114,7 +114,7 @@ let fiber={
     users: 4, 
 }
 console.log(fiber);
-console.log(fiber.band);
+
 
 let laptop={
     company: "asus",
@@ -123,7 +123,7 @@ let laptop={
     prize: 45000,
 }
 console.log(laptop);
-console.log(laptop.company);
+
 
 let chain={
     material: "gold",
@@ -131,7 +131,7 @@ let chain={
     carrect: 22,
 }
 console.log(chain);
-console.log(chain.carract);
+
 
 let mobilephone={
     RAM: 16,
@@ -140,7 +140,7 @@ let mobilephone={
     company: "realme",
 }
 console.log(mobilephone);
-console.log(mobilephone.Comp);
+
 
 let lock={
     type: "Lever",
@@ -148,7 +148,7 @@ let lock={
     material: "Steel",
 }
 console.log(lock);
-console.log(lock.material);
+
 
 let cupboard={
     plate : 4,
@@ -156,4 +156,3 @@ let cupboard={
     Wood: "plaine"
 }
 console.log(cupboard);
-console.log(cupboard.Wood);
