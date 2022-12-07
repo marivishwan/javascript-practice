@@ -1,0 +1,26 @@
+
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../Clock/Screenshot\ \(8\).png);
+      background-size: cover;
+      position: relative;
+}
+
+
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: linear-gradient( teal , lightblue );
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 500px;
+    right: 150px;
+
+    
+}
+
